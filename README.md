@@ -11,7 +11,13 @@
     npm i -D <name> // dev dependency
     npm install <name> --save-dev
     ```
-
+### Git command
+    ```bash
+    git init
+    git add .
+    git commit -m "message"
+    git push -u origin master
+    ```
 ### DOC API REST
     - GET/events -> get all events
     - GET/events/:id -> get event by id
