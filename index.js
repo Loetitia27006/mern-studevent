@@ -28,6 +28,11 @@ app.get('/events/:id', (req, res) => {
     res.send(event)
 })
 
+//Create event
+app.post('/events', (req, res) => {
+    res.send('Create event')
+})
+
 app.listen(8000, () => {
     console.log('Running app express on port 8000')
 })
